@@ -1,3 +1,7 @@
+@import url("primereact/resources/themes/lara-light-indigo/theme.css");
+@import url("primereact/resources/primereact.min.css");
+@import url("primeicons/primeicons.css");
+
 body {
   margin: 0;
   padding: 0;
