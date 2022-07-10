@@ -1,5 +1,6 @@
 @import url("primereact/resources/themes/lara-light-indigo/theme.css");
 @import url("primereact/resources/primereact.min.css");
+@import url("/node_modules/primeflex/primeflex.css");
 @import url("primeicons/primeicons.css");
 
 body {

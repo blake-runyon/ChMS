@@ -1,7 +1,13 @@
 const User = require('../models/user');
 
 const getUser = async (req, res) => {
-    res.json(await User.find());
+    const user = await User.find();
+    
+    if(user) {
+        res.status(200).json(user)
+    } else {
+        res.status(404).json({ error: 'No Users Found' })
+    }
 }
 
 const addUser = async (req, res) => {

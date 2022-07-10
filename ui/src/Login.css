@@ -1,0 +1,26 @@
+.login-wrapper {
+    background-image: url('../public/worship.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.login-wrapper .p-inputtext {
+    border-color: black;
+}
+
+.login-wrapper .p-inputtext:focus {
+    border-color: purple;
+    box-shadow : 0 0 0 0.2rem rgba(151, 0, 238, 0.248);
+}
+
+.login-wrapper .p-button {
+    background-color: rgba(151, 0, 238, 0.838);
+    color: white;
+    border-color: rgba(151, 0, 238, 0.838);
+}
+
+.login-wrapper .p-button:hover {
+    background-color: rgb(114, 0, 179);
+    color: white;
+    border-color: rgb(114, 0, 179);
+}
